@@ -19,7 +19,7 @@
     "verify": "truffle run verify"
   },
   "dependencies": {
-    "@openzeppelin/test-helpers": "^0.5.5",
+    "@openzeppelin/test-helpers": "^0.5.15",
     "bignumber.js": "^9.0.0",
     "chai": "^4.2.0",
     "chai-bn": "^0.2.1",
