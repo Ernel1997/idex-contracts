@@ -16,15 +16,18 @@
     "lint:markdown": "markdownlint README.md",
     "prettier": "prettier --write **/*.sol",
     "test": "multi='spec=- json=./coverage/mocha-summary.json' truffle test",
-    "verify": "truffle run verify"
+    "verify": "truffle run verify",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "@openzeppelin/test-helpers": "^0.5.5",
     "bignumber.js": "^9.0.0",
     "chai": "^4.2.0",
     "chai-bn": "^0.2.1",
-    "ethers": "^4.0.47",
-    "uuid": "^8.0.0"
+    "ethers": "^4.0.49",
+    "uuid": "^8.0.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
@@ -73,5 +76,6 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
-  }
+  },
+  "snyk": true
 }
