@@ -19,11 +19,11 @@
     "verify": "truffle run verify"
   },
   "dependencies": {
-    "@openzeppelin/test-helpers": "^0.5.5",
+    "@openzeppelin/test-helpers": "^0.5.16",
     "bignumber.js": "^9.0.0",
     "chai": "^4.2.0",
     "chai-bn": "^0.2.1",
-    "ethers": "^4.0.47",
+    "ethers": "^5.0.0",
     "uuid": "^8.0.0"
   },
   "devDependencies": {
